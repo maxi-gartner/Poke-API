@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.infoPokemon,
+.attackSpecial,
+.defense{
+    display: grid;
+}
+.infoPokemon{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1px;
+}
+.card-body{
+    text-align: center;
+    border-bottom: solid 2px slategrey;
+}
+.card{
+    position: relative;
+    background-color: rgb(1, 151, 136);
+    margin: 5px;
+}
+
+.card-id{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    right: 2px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
